@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(13, 13, 44);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > section {
+    border-bottom: 1px solid white;
+    width: 85vw;
+    margin: auto;
+}
+
+header > section > nav > ul > li {
+    padding: 15px;
+    display: inline-block;
+    border-bottom: 1px solid white;
+    position: relative; right: 52px;
+}
+ul {
+    width: 300px;
+}
+nav {
+    width: 60px;
+}
