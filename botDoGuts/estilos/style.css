@@ -5,6 +5,8 @@
     margin: 0px;
 }
 
+
+
 body {
     background-color: rgb(13, 13, 44);
     color: white;
@@ -15,17 +17,49 @@ header > section {
     border-bottom: 1px solid white;
     width: 85vw;
     margin: auto;
+    position: relative; bottom: 25px;
+}
+li {
+    display: inline-block;
 }
 
-header > section > nav > ul > li {
-    padding: 15px;
+h1 {
+    font-size: 40px;
     display: inline-block;
-    border-bottom: 1px solid white;
-    position: relative; right: 52px;
+    top: 50px;
+    position: relative;
 }
+
+#navegador {
+    background-color: blueviolet;
+    height: 50px;
+    width: 300px;
+    position: relative; left: 815px;
+}
+
 ul {
     width: 300px;
+    margin-left: 100px;
 }
 nav {
     width: 60px;
+}
+
+#principal {
+    background-color: brown;
+    height: 1000px;
+    width: 600px;
+    margin-left: 200px;
+    margin-top: 70px;
+    display: inline-block;
+    
+}
+
+#secundario {
+    background-color: aqua;
+    height: 1000px;
+    width: 250px;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 170px;
 }
