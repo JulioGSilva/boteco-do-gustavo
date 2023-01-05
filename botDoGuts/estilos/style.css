@@ -1,65 +1,66 @@
 @charset "UTF-8";
+/*Mobile*/
 
 * {
     padding: 0px;
     margin: 0px;
 }
 
-
-
 body {
-    background-color: rgb(13, 13, 44);
+    background-color: rgb(46, 46, 63);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header > section {
-    border-bottom: 1px solid white;
-    width: 85vw;
-    margin: auto;
-    position: relative; bottom: 25px;
+header {
+    background-color: rgb(43, 19, 75);
+    padding: 10px;
 }
+
 li {
     display: inline-block;
+    padding: 15px;
 }
 
-h1 {
-    font-size: 40px;
+section#secmain {
+    height: 100vh;
+    background-color: black;
+    width: 85vw;
+    margin: auto;
+
+}
+
+div#principal {
+    padding: 15px;
+    background-color: rgb(31, 30, 30);
+    display: block;
+    width: 90%;
+
+    margin: auto;
+}
+
+#text {
+    display: inline;
+    width: 220px;
+    text-indent: 10px;
+    text-align: left;
+    float: right;
+    margin-top: 30px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
     display: inline-block;
-    top: 50px;
-    position: relative;
-}
-
-#navegador {
-    background-color: blueviolet;
-    height: 50px;
-    width: 300px;
-    position: relative; left: 815px;
-}
-
-ul {
-    width: 300px;
-    margin-left: 100px;
-}
-nav {
-    width: 60px;
-}
-
-#principal {
-    background-color: brown;
-    height: 1000px;
-    width: 600px;
-    margin-left: 200px;
-    margin-top: 70px;
-    display: inline-block;
-    
 }
 
 #secundario {
-    background-color: aqua;
-    height: 1000px;
-    width: 250px;
-    display: inline-block;
-    margin-top: 100px;
-    margin-left: 170px;
+    background-color: aquamarine;
 }
+
+footer {
+    background-color: black;
+    height: 50px;
+    text-align: center;
+}
+
